@@ -1,0 +1,47 @@
+body {
+    background-image: url('./seamlessBackground.jpg');
+}
+
+.container {
+    background-color: rgb(161, 161, 226);
+    height: 98vh;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.list li {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.list li:last-of-type {
+    margin-bottom: 0;
+}
+
+.pending {
+    background: skyblue;
+}
+
+.done {
+    background: pink;
+}
+
+#quote {
+    font-weight: 700;
+    padding:none;
+    margin: none;
+}
+
+#author {
+    font-style: italic;
+}
+
+
